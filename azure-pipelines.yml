@@ -30,3 +30,9 @@ steps:
      ## - task: UsePythonVersion@0
       ##  inputs:
         ##  versionSpec: '3.6'
+- task: PythonScript@0
+  inputs:
+    targetType: 'inline'
+    script: |
+      print('Test')
+      print('Test2')
