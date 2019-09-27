@@ -18,3 +18,5 @@ jobs:
       versionSpec: '$(python.version)'
 
   # Add additional tasks to run using each Python version in the matrix above
+
+  - script: python src/example.py
