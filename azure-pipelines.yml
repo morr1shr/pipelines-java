@@ -26,7 +26,7 @@ steps:
     script: |
       # https://docs.microsoft.com/azure/devops/pipelines/ecosystems/python
       
-      steps:
-      - task: UsePythonVersion@0
-        inputs:
-          versionSpec: '3.6'
+   ##   steps:
+     ## - task: UsePythonVersion@0
+      ##  inputs:
+        ##  versionSpec: '3.6'
